@@ -1,0 +1,22 @@
+{
+    "name": "agilesdesign/persons-for-laravel",
+    "description": "Persons library for use with Laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justin Seliga",
+            "email": "jseliga@agilesdesign.com"
+        }
+    ],
+    "require": {
+        "agilesdesign/myrtle-core-dock-ethnicities": "dev-master"
+    },
+    "autoload": {
+        "classmap": [
+            "src/database"
+        ],
+        "psr-4": {
+            "Persons\\": "src/Persons"
+        }
+    }
+}
