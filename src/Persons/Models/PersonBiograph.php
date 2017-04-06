@@ -2,11 +2,11 @@
 
 namespace Persons\Models;
 
-use Myrtle\Ethnicities\Models\Traits\BelongsToEthnicity;
-use Myrtle\Genders\Models\Traits\BelongsToGender;
+use Myrtle\Core\Ethnicities\Models\Traits\BelongsToEthnicity;
+use Myrtle\Core\Genders\Models\Traits\BelongsToGender;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Myrtle\Religions\Models\Traits\BelongsToReligion;
+use Myrtle\Core\Religions\Models\Traits\BelongsToReligion;
 
 class PersonBiograph extends Model
 {

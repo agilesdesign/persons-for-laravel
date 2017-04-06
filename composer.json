@@ -1,6 +1,7 @@
 {
     "name": "agilesdesign/persons-for-laravel",
     "description": "Persons library for use with Laravel",
+    "minimum-stability": "dev",
     "license": "MIT",
     "authors": [
         {
@@ -8,8 +9,20 @@
             "email": "jseliga@agilesdesign.com"
         }
     ],
+    "repositories" : [
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-ethnicities.git"},
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-docks.git"},
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-genders.git"},
+        {"type": "vcs","url": "https://github.com/agilesdesign/myrtle-core-dock-religions.git"}
+    ],
     "require": {
-        "agilesdesign/myrtle-core-dock-ethnicities": "dev-master"
+        "agilesdesign/myrtle-core-dock-ethnicities": "dev-master",
+        "agilesdesign/myrtle-core-dock-docks": "dev-master",
+        "agilesdesign/myrtle-core-dock-genders": "dev-master",
+        "agilesdesign/myrtle-core-dock-religions": "dev-master"
+    },
+    "require-dev": {
+        "laravel/laravel": "5.4.*"
     },
     "autoload": {
         "classmap": [
